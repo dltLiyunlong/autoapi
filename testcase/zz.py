@@ -8,5 +8,6 @@ yaml_data = ReadData().get_yaml()
 
 
 print(data)
+print('data')
 
 
