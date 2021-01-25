@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-FO4IV063",
+    "children" : [ {
+      "name" : "9204-MainThread",
+      "children" : [ {
+        "name" : "获取用户信息-标题",
+        "uid" : "4006c419ca773ca2",
+        "parentUid" : "dc27b5b2015cedf9cc27d3c6973c91d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609833678556,
+          "stop" : 1609833678556,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc27b5b2015cedf9cc27d3c6973c91d1"
+    }, {
+      "name" : "21664-MainThread",
+      "children" : [ {
+        "name" : "获取用户信息-标题",
+        "uid" : "4e422f59500d8bbd",
+        "parentUid" : "58493eb403ac563d5046e1b2ae0c9dd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609833475324,
+          "stop" : 1609833475324,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58493eb403ac563d5046e1b2ae0c9dd6"
+    }, {
+      "name" : "6260-MainThread",
+      "children" : [ {
+        "name" : "获取用户信息-标题",
+        "uid" : "a66a873a3ae44a88",
+        "parentUid" : "03fb9f30d73a2052d75a7ed0d8a7b4c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609833265934,
+          "stop" : 1609833265934,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03fb9f30d73a2052d75a7ed0d8a7b4c9"
+    }, {
+      "name" : "21856-MainThread",
+      "children" : [ {
+        "name" : "test_getuserinfo",
+        "uid" : "892dd314fe4ad3f0",
+        "parentUid" : "2210e3cf55e142e9d915eb2a71d70f12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609832067110,
+          "stop" : 1609832067110,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2210e3cf55e142e9d915eb2a71d70f12"
+    } ],
+    "uid" : "7b3a9b993229ff9e2c1e474164f371b1"
+  } ]
+}

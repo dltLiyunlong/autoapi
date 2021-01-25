@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "获取用户信息",
+    "children" : [ {
+      "name" : "test_getuserinfo",
+      "uid" : "892dd314fe4ad3f0",
+      "parentUid" : "b97b63fdb506c12b51128531c9f7b618",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609832067110,
+        "stop" : 1609832067110,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b97b63fdb506c12b51128531c9f7b618"
+  }, {
+    "name" : "获取用户信息功能",
+    "children" : [ {
+      "name" : "获取用户信息",
+      "children" : [ {
+        "name" : "获取用户信息-标题",
+        "uid" : "4006c419ca773ca2",
+        "parentUid" : "162bfe6ff054e1d55ab8c5f9d0f1fd5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609833678556,
+          "stop" : 1609833678556,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "162bfe6ff054e1d55ab8c5f9d0f1fd5c"
+    } ],
+    "uid" : "065725924e775100ac5ad353beff6494"
+  } ]
+}

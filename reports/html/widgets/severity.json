@@ -1,0 +1,21 @@
+[ {
+  "uid" : "4006c419ca773ca2",
+  "name" : "获取用户信息-标题",
+  "time" : {
+    "start" : 1609833678556,
+    "stop" : 1609833678556,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "892dd314fe4ad3f0",
+  "name" : "test_getuserinfo",
+  "time" : {
+    "start" : 1609832067110,
+    "stop" : 1609832067110,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

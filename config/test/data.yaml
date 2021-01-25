@@ -1,0 +1,36 @@
+
+#数据库配置
+otc:
+  host: 192.168.0.187
+  port: 3306
+  user_name: root
+  password: huirong
+  db_name: short_term_financing_test
+  drive: mysql
+
+
+
+
+#E分期业务平台
+efenqi_user:
+  account: 360209841
+  LoginAgent : WEB
+  password: KINcyBgkybuRcR+ohrcJi4CWgxkYlYzn0q/LKRczr7Cw6Utokri6VXQHHgm5kZyf0rqzVaUBdbXBBy8YITCcl21orrU02r9t/9m1QveDwYiYIGQQsZWZB9cGJZjW9V8+tsIQXT7MLhzgKyjlZb7PlxRZ9Of1zpshW1O35zMEj6w=
+#短融机构平台
+dr_org_user:
+  username: nanfang
+  password: e10adc3949ba59abbe56e057f20f883e
+#短融资方平台
+dr_funder_user:
+  username: li12345
+  password: e10adc3949ba59abbe56e057f20f883e
+#加密地址
+jiami_host: http://114.55.55.41:8100/
+#E分期地址
+e_fenqi_host: http://14.17.122.160:19081/login/doLogin
+#esb地址
+esb_host: http://192.168.0.104:9501/
+#短融机构地址
+dr_jg_host: http://192.168.0.102:5104/
+#短融资方地址
+dr_funder_host: http://192.168.0.102:4104/

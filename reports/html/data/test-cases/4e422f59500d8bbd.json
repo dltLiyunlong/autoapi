@@ -1,0 +1,60 @@
+{
+  "uid" : "4e422f59500d8bbd",
+  "name" : "获取用户信息-标题",
+  "fullName" : "testcase.get_userinfo.Test#test_getuserinfo",
+  "historyId" : "aeff435399228923ed8d2f594eb032f7",
+  "time" : {
+    "start" : 1609833475324,
+    "stop" : 1609833475324,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取用户信息"
+  }, {
+    "name" : "feature",
+    "value" : "获取用户信息功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "get_userinfo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-FO4IV063"
+  }, {
+    "name" : "thread",
+    "value" : "21664-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.get_userinfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e422f59500d8bbd.json",
+  "parameterValues" : [ ]
+}

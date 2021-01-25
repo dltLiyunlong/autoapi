@@ -1,0 +1,6 @@
+[2020-12-31 17:08:55,714]-logs.py]-ERROR:检查参数：'str' object has no attribute 'items'
+[2020-12-31 17:37:48,383]-logs.py]-ERROR:检查参数：'str' object has no attribute 'items'
+[2020-12-31 17:38:10,805]-logs.py]-ERROR:检查参数：'str' object has no attribute 'items'
+[2020-12-31 17:39:37,679]-logs.py]-INFO:检查参数：'str' object has no attribute 'items'
+[2020-12-31 17:40:52,426]-logs.py]-ERROR:检查参数：'str' object has no attribute 'items'
+[2020-12-31 17:45:24,714]-logs.py]-ERROR:检查参数：'str' object has no attribute 'items'

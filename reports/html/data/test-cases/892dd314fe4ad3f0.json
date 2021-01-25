@@ -1,0 +1,56 @@
+{
+  "uid" : "892dd314fe4ad3f0",
+  "name" : "test_getuserinfo",
+  "fullName" : "get_userinfo.Test#test_getuserinfo",
+  "historyId" : "613c358301cb701d7575cd1c4ac18fb0",
+  "time" : {
+    "start" : 1609832067110,
+    "stop" : 1609832067110,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取用户信息"
+  }, {
+    "name" : "suite",
+    "value" : "get_userinfo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-FO4IV063"
+  }, {
+    "name" : "thread",
+    "value" : "21856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "get_userinfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "892dd314fe4ad3f0.json",
+  "parameterValues" : [ ]
+}
