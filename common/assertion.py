@@ -31,8 +31,8 @@ class Assertion():
     def asser(self, function, casename, expect, response_data):
 
         try:
-            assert eval(expect)['message'] == response_data['message']
-            assert eval(expect)['message'] == response_data['message']
+            assert expect == response_data['message']
+            assert expect == response_data['message']
             self.log.info('{}--{}【pass】'.format(function, casename))
 
         except Exception as e:

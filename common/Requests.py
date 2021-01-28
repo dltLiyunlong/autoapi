@@ -8,18 +8,18 @@ class RunMethod(object):
     log = Log()
     urllib3.disable_warnings()
 
-    def post_main(self, url, data, headers):
-        res = requests.post(url=url, json=data, headers=headers)
+    def post_main(self, url, headers, data):
+        res = requests.post(url=url, headers=headers, json=data)
         return res.json()
 
     def get_main(self, url, headers):
         res = requests.post(url=url, headers=headers)
         return res.json()
 
-    def run_main(self, method, url, data, headers):
+    def run_main(self, method, url, headers, data):
         try:
             if method == 'post':
-                res = self.post_main(url, data, headers)
+                res = self.post_main(url, headers, data)
             elif method == 'get':
                 res = self.get_main(url, headers)
             else:

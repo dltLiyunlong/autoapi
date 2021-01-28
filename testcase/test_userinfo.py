@@ -6,7 +6,6 @@ from common.assertion import Assertion
 import json
 
 
-@pytest.mark.parametrize('function,casename,type,run,url,headers,param,expect')
 class Test(object):
     request = RunMethod()
     data = ReadData().get_excel('/testcase.xls', 'test')
@@ -16,12 +15,11 @@ class Test(object):
     @allure.feature('登录功能')
     @allure.story('登录')
     @allure.title('登录测试用例')
-    def test_get_userinfo(self):
-        req = self.request.run_main(self.data[0][2], self.yaml_data['dr_jg_host'] + self.data[0][4],
-                                    json.loads(self.data[0][6]),
-                                    json.loads(self.data[0][5]))
-
-        assert req['success'] == True
+    @pytest.mark.parametrize("Function,CaseName,Type,Run,URL,Headers,Param,Expect", data)
+    def test_get_userinfo(self, Function, CaseName, Type, Run, URL, Headers, Param, Expect):
+        req = self.request.run_main(Type, self.yaml_data['dr_jg_host'] + URL, json.loads(Headers), json.loads(Param))
+        self.assersion.get_response_data(req, Expect)
+        self.assersion.asser(Function, CaseName, Expect, req)
 
 
 if __name__ == '__main__':

@@ -1,11 +1,19 @@
 from common.readFile import ReadData
 from common.Requests import RunMethod
 import json
+import pytest
 
 request = RunMethod()
 data = ReadData().get_excel('/testcase.xls', 'test')
 yaml_data = ReadData().get_yaml()
 
-req = request.run_main(data[1][2], yaml_data['dr_jg_host']+data[1][4], json.loads(data[1][6]), json.loads(data[1][5]))
 
-print(req)
+class Test_1(object):
+    @pytest.mark.parametrize("Function,CaseName,Type,Run,URL,Headers,Param,Expect", data)
+    def test_1(self, Function, CaseName, Type, Run, URL, Headers, Param, Expect):
+
+        print( Expect)
+
+
+if __name__ == '__main__':
+    pytest.main(['-s',r'F:\autop\testcase\zz.py'])
