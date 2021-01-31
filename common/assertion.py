@@ -41,4 +41,5 @@ class Assertion():
 
 if __name__ == '__main__':
     print('断言方法')
+    print('zz')
 
