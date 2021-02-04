@@ -23,4 +23,4 @@ class Test(object):
 
 
 if __name__ == '__main__':
-    pytest.main(["-s", "-q", '--alluredir', 'F:/autop/reports/result', 'test_userinfo.py'])
+    pytest.main(["-s", "-q", '--alluredir', "./allure-results", 'test_userinfo.py'])
